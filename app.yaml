@@ -1,0 +1,11 @@
+runtime: python310  # Python runtime version
+
+handlers:
+- url: /static
+  static_dir: static
+
+- url: /.*
+  script: auto
+
+env_variables:
+  PORT: 8080  # Port to listen on
