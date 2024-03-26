@@ -1,4 +1,6 @@
 # conversation_analysis_openAI
+
+```markdown
 # Flask Application for Sentimental Analysis and Speaker Insights
 
 This repository contains a Flask application for analyzing conversations uploaded by users. The application extracts text from uploaded audio files, performs sentiment analysis, and provides insights about the speakers involved in the conversation.
@@ -39,3 +41,27 @@ Run the Flask application using the following command:
 
 ```bash
 python app.py
+```
+
+The application will start, and you can access it in your web browser at `http://localhost:2005`.
+
+### Uploading Conversations
+
+Users can upload conversation files through the web interface. Supported file formats include text and audio.
+
+### Viewing Analysis Results
+
+After uploading a conversation, the application performs sentiment analysis and speaker insights. Users can view the analysis results on the web interface.
+
+## Files
+
+- `app.py`: Main Flask application file containing routes and logic for handling uploads and analysis.
+- `speaker_analysis_gpt.py`: Python module for performing speaker analysis and psychological insights using OpenAI's GPT model.
+- `transcribe_audio_deepgram.py`: Python module for extracting text from audio files using Deepgram's transcription service.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+```
+
+You can replace `"your-username"` and `"your-repository"` with your actual GitHub username and repository name in the clone URL. Adjust the installation and usage instructions based on your specific project requirements.
