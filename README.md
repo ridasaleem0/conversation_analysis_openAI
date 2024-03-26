@@ -75,12 +75,12 @@ After uploading a conversation, the application performs sentiment analysis and 
 
 If you encounter any issues while running the application, try the following troubleshooting steps:
 
-Check Dependencies: Make sure all dependencies are installed correctly by running pip install -r requirements.txt again.
-Environment Variables: Double-check the .env file to ensure that all required environment variables are correctly configured.
-API Keys: Verify that any API keys (such as OpenAI API key) are valid and have the necessary permissions.
-File Permissions: Ensure that the Flask application has permission to read and write files in the specified directories, especially for uploaded files.
-Logging: Check the application logs for any error messages or exceptions that might provide clues about the issue.
-Network Connectivity: If the application relies on external services (such as Deepgram for audio transcription), ensure that your network connection is stable and not blocked by firewalls.
+1. Check Dependencies: Make sure all dependencies are installed correctly by running pip install -r requirements.txt again.
+2. API Keys: Verify that any API keys (such as OpenAI API key) are valid and have the necessary permissions.
+3. File Permissions: Ensure that the Flask application has permission to read and write files in the specified directories, especially for uploaded files.
+4. Logging: Check the application logs for any error messages or exceptions that might provide clues about the issue.
+6. Environment Variables: Double-check the .env file to ensure that all required environment variables are correctly configured.
+7. Network Connectivity: If the application relies on external services (such as Deepgram for audio transcription), ensure that your network connection is stable and not blocked by firewalls.
 If the issue persists, feel free to open an issue in the GitHub repository for further assistance.
 
 ## Files
