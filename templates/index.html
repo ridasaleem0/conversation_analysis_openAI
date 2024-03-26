@@ -9,16 +9,16 @@
 
 <h1>Welcome to the Sentimental Analysis & Speaker Insights Application</h1>
 
-<p>Upload your conversation files to extract text from audio, perform sentiment analysis, and gain insights about the speakers involved.</p>
+<p>Upload your conversation files to perform sentiment analysis, and gain insights about the speakers involved. Only upload <strong>auido or text type files</strong> in the form below.<p>
+</p>
 <p>Get started by uploading your conversation file below:</p>
 
-Only upload <strong>auido or text type files</strong> in the form below.<p>
 
 <hr><p>
 
 
 <form id="upload-form" action="{{ url_for('upload') }}" method="POST" enctype="multipart/form-data">
-    <strong>Normal Text Box:</strong><br>
+    <strong>Description about files - Optional:</strong><br>
     <input type="text" size="20" name="input1" value="uploads"><p>
 
     <strong>File Type:</strong><br>
@@ -27,12 +27,8 @@ Only upload <strong>auido or text type files</strong> in the form below.<p>
 
 
     <strong>Files:</strong><br>
-    Select files OR drag them into the box below.
+    Select files from your local machine.
     <input id="file-picker" type="file" name="file" accept="video/*, audio/*, text/*" multiple><p>
-
-    <div id="dropbox">
-        Drag and Drop Files Here
-    </div><p>
 
     <fieldset id="progress" style="display: none">
         <legend>Files Progress</legend>
