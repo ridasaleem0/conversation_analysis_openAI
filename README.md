@@ -28,7 +28,7 @@ This repository contains a Flask application for analyzing conversations uploade
 
     ```bash
     # Create a virtual environment
-    python -m venv venv
+    python3.10 -m venv venv
 
     # Activate the virtual environment
     # On Windows
