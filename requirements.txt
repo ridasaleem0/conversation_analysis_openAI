@@ -28,7 +28,7 @@ mypy-extensions==1.0.0
 openai==1.14.2
 packaging==24.0
 pip==24.0
-pyaudio==0.2.11
+PyAudio
 pydantic==2.6.4
 pydantic-core==2.16.3
 python-dotenv==1.0.1
