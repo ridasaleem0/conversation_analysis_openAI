@@ -21,7 +21,7 @@ This repository contains a Flask application for analyzing conversations uploade
 2. Navigate to the project directory:
 
     ```bash
-    cd your-repository
+    cd conversation_analysis_openAIconversation_analysis_openAI
     ```
 
 3. Install the required dependencies:
