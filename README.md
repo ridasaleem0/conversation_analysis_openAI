@@ -7,6 +7,7 @@ This repository contains a Flask application for analyzing conversations uploade
 ### Prerequisites
 
 - Python 3.10 installed on your system
+- Virtual environment (optional but recommended)
 - Dependencies installed using `pip install -r requirements.txt`
 - Environment variables configured in a `.env` file
 
@@ -23,14 +24,26 @@ This repository contains a Flask application for analyzing conversations uploade
     ```bash
     cd conversation_analysis_openAIconversation_analysis_openAI
     ```
+3. (Optional) Set up a virtual environment:
 
-3. Install the required dependencies:
+    ```bash
+    # Create a virtual environment
+    python -m venv venv
+
+    # Activate the virtual environment
+    # On Windows
+    venv\Scripts\activate
+    # On macOS/Linux
+    source venv/bin/activate
+    ```
+
+4. Install the required dependencies:
 
     ```bash
     pip install -r requirements.txt
     ```
 
-4. Set up your environment variables in a `.env` file. Include any necessary API keys or configuration settings.
+5. Set up your environment variables in a `.env` file. Include any necessary API keys or configuration settings.
 
 ### Configuration
 
