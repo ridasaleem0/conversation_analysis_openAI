@@ -15,7 +15,7 @@ This repository contains a Flask application for analyzing conversations uploade
 1. Clone the repository to your local machine:
 
     ```bash
-    https://github.com/ridasaleem0/conversation_analysis_openAI.git
+    git clone https://github.com/ridasaleem0/conversation_analysis_openAI.git
     ```
 
 2. Navigate to the project directory:
