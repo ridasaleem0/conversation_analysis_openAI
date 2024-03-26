@@ -1,6 +1,6 @@
 # conversation_analysis_openAI
 
-```markdown
+
 # Flask Application for Sentimental Analysis and Speaker Insights
 
 This repository contains a Flask application for analyzing conversations uploaded by users. The application extracts text from uploaded audio files, performs sentiment analysis, and provides insights about the speakers involved in the conversation.
@@ -18,7 +18,7 @@ This repository contains a Flask application for analyzing conversations uploade
 1. Clone the repository to your local machine:
 
     ```bash
-    git clone https://github.com/your-username/your-repository.git
+    git clone https://github.com/ridasaleem0/conversation_analysis_openAI.git
     ```
 
 2. Navigate to the project directory:
@@ -59,9 +59,3 @@ After uploading a conversation, the application performs sentiment analysis and 
 - `speaker_analysis_gpt.py`: Python module for performing speaker analysis and psychological insights using OpenAI's GPT model.
 - `transcribe_audio_deepgram.py`: Python module for extracting text from audio files using Deepgram's transcription service.
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-```
-
-You can replace `"your-username"` and `"your-repository"` with your actual GitHub username and repository name in the clone URL. Adjust the installation and usage instructions based on your specific project requirements.
