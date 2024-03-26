@@ -1,6 +1,3 @@
-# conversation_analysis_openAI
-
-
 # Flask Application for Sentimental Analysis and Speaker Insights
 
 This repository contains a Flask application for analyzing conversations uploaded by users. The application extracts text from uploaded audio files, performs sentiment analysis, and provides insights about the speakers involved in the conversation.
@@ -18,7 +15,7 @@ This repository contains a Flask application for analyzing conversations uploade
 1. Clone the repository to your local machine:
 
     ```bash
-    git clone https://github.com/ridasaleem0/conversation_analysis_openAI.git
+    https://github.com/ridasaleem0/conversation_analysis_openAI.git
     ```
 
 2. Navigate to the project directory:
