@@ -22,7 +22,7 @@ This repository contains a Flask application for analyzing conversations uploade
 2. Navigate to the project directory:
 
     ```bash
-    cd conversation_analysis_openAIconversation_analysis_openAI
+    cd conversation_analysis_openAI
     ```
 3. (Optional) Set up a virtual environment:
 
