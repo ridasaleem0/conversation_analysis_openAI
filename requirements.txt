@@ -42,4 +42,3 @@ verboselogs==1.7
 websockets==12.0
 Werkzeug==3.0.1
 yarl==1.9.4
-flask
