@@ -36,7 +36,7 @@ def upload():
         is_ajax = True
 
     # Target folder for these uploads.
-    target = "static/uploads"
+    target = "app/static/uploads"
 
     try:
         # Retrieve the uploaded file from the request.
@@ -46,17 +46,15 @@ def upload():
         if uploaded_file.filename != '':
             filename = uploaded_file.filename
             file_path = "/".join([target, filename])
-            # print("Accept incoming file:", filename)
-            # print("Save it to:", file_path)
             uploaded_file.save(file_path)
 
             # If the uploaded file is an audio file, perform transcription.
             if is_audio(file_path):
                 # Transcription of the audio file
                 transcription = extract_text_from_audio(file_path)
-                # print("Transcription:\n", transcription)
                 os.remove(file_path)
                 if transcription:
+                    print("TRUEE")
                     # Get the base name of the original file (without extension)
                     file_name_without_extension = os.path.splitext(filename)[0]
 
@@ -64,14 +62,12 @@ def upload():
                     new_file_name = f"{file_name_without_extension}.txt"
                     file_path = "/".join([target, new_file_name])
                     with open(file_path, 'w') as f:
+                        print("TRUEE")
                         f.write(transcription)
                         uploaded_file.save(file_path)
-                    # print("Accept incoming file:", new_file_name)
-                    # print("Save it to:", file_path)
 
             # Perform speaker analysis and psychological insights on the uploaded file
             analysis_results = analyse_conversation(file_path)
-            # print("Analysis Results:\n", analysis_results)
             os.remove(file_path)  # Remove the uploaded file after analysis
             # return render_template('result.html', text=to_render)
 
