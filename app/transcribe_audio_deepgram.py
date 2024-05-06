@@ -19,7 +19,7 @@ def extract_text_from_audio(audio_file):
 
         # STEP 1 Create a Deepgram client using the API key in the environment variables
         config: DeepgramClientOptions = DeepgramClientOptions(
-            api_key="6aaf95e6249b75dab257e16d0082222d06e6bc77",
+            # api_key="6aaf95e6249b75dab257e16d0082222d06e6bc77",
             verbose=logging.SPAM
         )
         deepgram: DeepgramClient = DeepgramClient("", config)

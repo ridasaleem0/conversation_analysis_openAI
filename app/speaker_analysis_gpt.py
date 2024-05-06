@@ -181,7 +181,7 @@ def analyse_conversation(text_file):
 
     # Retrieving the OpenAI API key from environment variables.
     # openai_api_key = os.getenv("OPENAI_API_KEY")
-    openai_api_key = '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'
+    # openai_api_key = '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'
 
     # Configuration for the LLMWrapper, such as the model name and token limits.
     openai_config = {"model_name": "gpt-3.5-turbo", "max_tokens": 2000}
